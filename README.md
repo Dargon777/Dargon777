@@ -47,7 +47,5 @@ An experimental research project involving black holes, axion-related ideas and 
 
 ### Build → Break → Understand → Improve
 
-*Most projects begin with:*  
-**«А что если?..»**
 
 </div>
