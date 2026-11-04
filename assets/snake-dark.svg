@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 134" role="img" aria-label="Contributions visualization initializing; GitHub Actions updates this with real activity">
+<rect x="1" y="1" width="898" height="132" rx="14" fill="#11182d" stroke="#57477b"/>
+<text x="26" y="31" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2" fill="#c9bdec">CONTRIBUTION STREAM // FIRST SYNC</text>
+<path d="M28 80H870" stroke="#463f6d" stroke-width="3" stroke-dasharray="8 12"/>
+<path d="M28 65H870M28 96H870" stroke="#302b4d" stroke-dasharray="3 12"/>
+<circle cx="29" cy="80" r="9" fill="#22d3ee"><animate attributeName="cx" values="29;870;29" dur="10s" repeatCount="indefinite"/></circle>
+<text x="28" y="122" font-family="monospace" font-size="12" fill="#8596b7">The animated contribution grid replaces this placeholder on the next successful workflow run.</text>
+</svg>
