@@ -1,0 +1,46 @@
+name: Refresh profile visuals
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile.yml"
+      - "scripts/profile_stats.py"
+
+permissions:
+  contents: write
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Refresh self-hosted public stats
+        run: python scripts/profile_stats.py
+        env:
+          GITHUB_USER: Dargon777
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate animated contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Dargon777
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake-light.svg?palette=github-light&color_snake=#8b5cf6
+            assets/snake-dark.svg?palette=github-dark&color_snake=#22d3ee
+      - name: Save refreshed profile graphics
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: refresh GitHub profile graphics"
+          file_pattern: "assets/stats.svg assets/snake-light.svg assets/snake-dark.svg"
