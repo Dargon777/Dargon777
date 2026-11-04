@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 250" role="img" aria-label="AxionBH exploratory astrophysics workbench">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#20163a"/><stop offset="1" stop-color="#12223d"/></linearGradient><linearGradient id="ring"><stop stop-color="#c4b5fd"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f0abfc"/></linearGradient></defs>
+<rect width="570" height="250" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="568" height="248" rx="21" stroke="#a58cf2" stroke-opacity=".52" fill="none"/>
+<rect x="25" y="25" width="142" height="27" rx="13" fill="#3b2862" stroke="#9f83dd" stroke-opacity=".6"/>
+<text x="43" y="43" fill="#ddc2ff" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">02 / RESEARCH</text>
+<text x="26" y="113" fill="#fbfbff" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">AxionBH</text>
+<text x="27" y="151" fill="#b7cce4" font-family="Segoe UI,Arial,sans-serif" font-size="18">Black-hole research workbench</text>
+<text x="27" y="178" fill="#a495bd" font-family="Segoe UI,Arial,sans-serif" font-size="15">Plasma · Pair transport · 511 keV</text>
+<rect x="26" y="206" width="115" height="25" rx="12" fill="#3b2d5a"/><text x="43" y="223" fill="#e4d4fc" font-family="monospace" font-size="13">JAVASCRIPT</text>
+<rect x="150" y="206" width="94" height="25" rx="12" fill="#3b2d5a"/><text x="166" y="223" fill="#e4d4fc" font-family="monospace" font-size="13">PHYSICS</text>
+<g transform="translate(468 128)">
+<circle r="38" fill="#090b1d" stroke="#9172db" stroke-width="2"/>
+<ellipse rx="81" ry="29" fill="none" stroke="#7055ad" stroke-opacity=".4" stroke-width="8" transform="rotate(-29)"/>
+<ellipse rx="78" ry="25" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-29)"/>
+<circle r="27" fill="#060b1a"/>
+<g><path d="M0 -78A78 78 0 0 1 78 0" fill="none" stroke="#bfa0ff" stroke-width="2" stroke-dasharray="4 9"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="19s" repeatCount="indefinite"/></g>
+<circle cx="70" cy="-42" r="5" fill="#81effe"><animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/></circle>
+</g></svg>
